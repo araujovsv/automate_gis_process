@@ -9,7 +9,7 @@ data = pd.read_csv(fp, sep=';')
 geo = geocode(data['addr'], provider='nominatim', user_agent='autogis_xx', timeout=4)
 print(geo.head())
 
-join = geo.join(data)
-print(join.head())
+# join = geo.join(data)
+# print(join.head())
 
-join.to_file(r'C:\Users\victo\Desktop\Workstation 21\Pessoal\Code\VSCode\Automating GIS Process\Lesson 3\join.shp')
+# join.to_file(r'C:\Users\victo\Desktop\Workstation 21\Pessoal\Code\VSCode\Automating GIS Process\Lesson 3\join.shp')

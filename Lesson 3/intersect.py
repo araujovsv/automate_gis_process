@@ -41,7 +41,6 @@ southern.reset_index(drop=True, inplace=True)
 #print(southern.head())
 
 
-# # Create a figure with one subplot
 # fig, ax = plt.subplots()
 
 # # Plot polygons
@@ -66,7 +65,6 @@ fig, ax = plt.subplots()
 # Plot polygons
 polys.plot(ax=ax, facecolor='gray')
 southern.plot(ax=ax, facecolor='red')
-
 # Plot points
 pip_data.plot(ax=ax, color='gold', markersize=2)
 
